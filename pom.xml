@@ -66,6 +66,16 @@ ECOMP is a trademark and service mark of AT&T Intellectual Property.
           <artifactId>sonar-maven-plugin</artifactId>
           <version>2.7.1</version>
         </plugin>
+        <!-- nexus-staging-maven-plugin is called during deploy phase by default behavior.
+         we do not need it -->
+        <plugin>
+          <groupId>org.sonatype.plugins</groupId>
+          <artifactId>nexus-staging-maven-plugin</artifactId>
+          <version>1.6.7</version>
+          <configuration>
+            <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+          </configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
 
