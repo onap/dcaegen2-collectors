@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_b334aede",
+        "filename": "mvn-phase-script.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 105
+      },
+      "writtenOn": "2017-09-11T23:31:15Z",
+      "side": 1,
+      "message": "By the way, this entire if statement can be reduced to the single line\n\n${SETTINGS_FILE:?}\n\nThat\u0027s been a feature of sh for many many years.",
+      "range": {
+        "startLine": 59,
+        "startChar": 10,
+        "endLine": 59,
+        "endChar": 23
+      },
+      "revId": "e1e4f7ec750cb81fe260d7cc4793eb3cc4979ba1",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
