@@ -22,18 +22,13 @@ ECOMP is a trademark and service mark of AT&T Intellectual Property.
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.onap.oparent</groupId>
-    <artifactId>oparent</artifactId>
+    <groupId>org.onap.dcaegen2</groupId>
+    <artifactId>root</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <!-- parent>
-    <groupId>org.onap.dcae.platform</groupId>
-    <artifactId>plugins</artifactId>
-    <version>1.0.0</version>
-  </parent -->
 
   <!--- CHANGE THE FOLLOWING 3 OBJECTS for your own repo -->
-  <groupId>org.onap.dcaegen2</groupId>
+  <groupId>org.onap.dcaegen2.collectors</groupId>
   <artifactId>collectors</artifactId>
   <name>dcaegen2-collectors</name>
   
@@ -154,8 +149,12 @@ ECOMP is a trademark and service mark of AT&T Intellectual Property.
               <MVN_RAWREPO_BASEURL_UPLOAD>${onap.nexus.rawrepo.baseurl.upload}</MVN_RAWREPO_BASEURL_UPLOAD>
               <MVN_RAWREPO_BASEURL_DOWNLOAD>${onap.nexus.rawrepo.baseurl.download}</MVN_RAWREPO_BASEURL_DOWNLOAD>
               <MVN_RAWREPO_SERVERID>${onap.nexus.rawrepo.serverid}</MVN_RAWREPO_SERVERID>
-              <MVN_DOCKERREGISTRY_DAILY>${onap.nexus.dockerregistry.daily}</MVN_DOCKERREGISTRY_DAILY>
+              <MVN_DOCKERREGISTRY_SNAPSHOT>${onap.nexus.dockerregistry.snapshot}</MVN_DOCKERREGISTRY_SNAPSHOT>
               <MVN_DOCKERREGISTRY_RELEASE>${onap.nexus.dockerregistry.release}</MVN_DOCKERREGISTRY_RELEASE>
+              <MVN_DOCKERREGISTRY_SNAPSHOT_SERVERID>${onap.nexus.dockerregistry.snapshot.serverid}</MVN_DOCKERREGISTRY_SNAPSHOT_SERVERID>
+              <MVN_DOCKERREGISTRY_RELEASE_SERVERID>${onap.nexus.dockerregistry.release.serverid}</MVN_DOCKERREGISTRY_RELEASE_SERVERID>
+              <MVN_PYPISERVER_BASEURL>${onap.nexus.pypiserver.baseurl}</MVN_PYPISERVER_BASEURL>
+              <MVN_PYPISERVER_SERVERID>${onap.nexus.pypiserver.serverid}</MVN_PYPISERVER_SERVERID>
             </environmentVariables>
           </configuration>
         </plugin>
