@@ -70,6 +70,30 @@
       "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_a6cf01b0",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2018-07-26T22:12:06Z",
+      "side": 1,
+      "message": "I think this is a corner case in DCAEGEN since all committers have access to all repos except Przemyslaw Wasala who just has permissions to 2 of them. \n\nFor https://gerrit.onap.org/r/#/c/46083/ and https://gerrit.onap.org/r/#/c/57767 we can remove the repo list to make it less confusing, or add some sort of note in\nPrzemyslaw Wasala\u0027s name. \n\nThe reason why I added the repo list is becuase we have a verification in place that will mark this change as failed if there is no repos section at all.",
+      "parentUuid": "da7095c5_26e4513a",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 29
+      },
+      "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
