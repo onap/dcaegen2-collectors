@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_a67381b0",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-26T21:23:40Z",
+      "side": 1,
+      "message": "Jess - I suppose this should contain only current repository? If intended, pls clarify what is the benefit of listing all other repo here.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 29
+      },
+      "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
+    }
+  ]
+}
