@@ -46,6 +46,30 @@
       "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_26e4513a",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-26T22:03:13Z",
+      "side": 1,
+      "message": "Thanks for all the updates! Have a follow-up ques on repo list - if intended to identify committers permission - then this PR list will be incorrect - https://gerrit.onap.org/r/#/c/46083/3/INFO.yaml; as one of the committer doesn\u0027t have access outside of two repo on that list.",
+      "parentUuid": "da7095c5_265f7110",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 29
+      },
+      "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
