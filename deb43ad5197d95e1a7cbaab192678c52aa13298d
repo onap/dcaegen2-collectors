@@ -22,6 +22,30 @@
       "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_265f7110",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 481
+      },
+      "writtenOn": "2018-07-26T21:32:29Z",
+      "side": 1,
+      "message": "We list all repos where the mentioned committers have permissions to commit.",
+      "parentUuid": "da7095c5_a67381b0",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 29
+      },
+      "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
