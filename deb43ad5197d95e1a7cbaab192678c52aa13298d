@@ -94,6 +94,30 @@
       "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_66c1e97f",
+        "filename": "INFO.yaml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 93
+      },
+      "writtenOn": "2018-07-26T22:19:09Z",
+      "side": 1,
+      "message": "Okay. understood. Yeah, so we can update those 2 PR to add note to indicate. All other info looks good to me; will approve them. Thanks again for your support!",
+      "parentUuid": "da7095c5_a6cf01b0",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 56,
+        "endChar": 29
+      },
+      "revId": "deb43ad5197d95e1a7cbaab192678c52aa13298d",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
